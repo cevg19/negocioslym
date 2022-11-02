@@ -1,0 +1,34 @@
+.accountancy-hero {
+  background: url("/images/accountancy-bg.jpg");
+  height: auto;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.accountancy-hero > span {
+  background-color: rgb(28, 28, 172);
+  color: aliceblue;
+  overflow: hidden;
+  flex: right;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 30px 150px;
+  float: right;
+  border-radius: 25px;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+.accountancy-hero > span:hover {
+  background-color: green;
+}
+.accountancy-hero > h1 {
+  color: #ffffff;
+  padding: 180px;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
